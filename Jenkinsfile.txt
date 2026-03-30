@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo '📥 Cloning repository...'
                 git branch: 'main',
-                    url: 'https://github.com/justicesecops-10/git.git'
+                    url: 'https://github.com/Gayathri13006/git_devops.git'
             }
         }
 
@@ -90,7 +90,7 @@ pipeline {
         success {
             echo "✅ ============================================"
             echo "✅ PIPELINE SUCCESS!"
-            echo "✅ App running at http://13.203.197.53:${APP_PORT}"
+            echo "✅ App running at http://13.127.241.50/:${APP_PORT}"
             echo "✅ ============================================"
         }
         failure {
